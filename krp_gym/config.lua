@@ -1,8 +1,8 @@
 Config = {}
 
-Config.Locale = 'en'
+Config.Locale = 'es'
 
-Config.SkillSystem = 'b1skillz' -- gamz or b1skillz
+Config.SkillSystem = 'mz-skills' -- change for your system
 
 Config.BlipsForEveryone = {
     

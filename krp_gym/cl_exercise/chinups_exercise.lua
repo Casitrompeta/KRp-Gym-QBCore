@@ -26,6 +26,8 @@ if situps then
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
 else
     lib.notify({
@@ -86,6 +88,8 @@ if situps then
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
 else
     lib.notify({

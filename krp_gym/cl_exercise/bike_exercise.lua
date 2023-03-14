@@ -44,6 +44,8 @@ exports.qtarget:AddCircleZone("bike", vec3(-1209.3685, -1562.9207, 4.0536), 0.95
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
    else
     ClearPedTasks(PlayerPedId())
@@ -124,6 +126,8 @@ exports.qtarget:AddCircleZone("bike2", vec3(-1208.1075, -1564.7186, 4.5407), 0.9
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
    else
     ClearPedTasks(PlayerPedId())
@@ -201,6 +205,8 @@ exports.qtarget:AddCircleZone("bike3", vec3(-1196.1495, -1570.3285, 4.1041), 0.9
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
    else
     ClearPedTasks(PlayerPedId())
@@ -277,6 +283,8 @@ exports.qtarget:AddCircleZone("bike4", vec3(-1194.8844, -1572.1680, 4.1050), 0.9
         exports["gamz-skillsystem"]:UpdateSkill("Stamina", 0.5)
        elseif Config.SkillSystem == 'b1skillz' then
         exports["B1-skillz"]:UpdateSkill("Stamina", 0.5)
+       elseif Config.skillsystem == 'mz-skills' then
+        exports["mz-skills"]:UpdateSkill("Stamina", 0.5)
        end
    else
     ClearPedTasks(PlayerPedId())
